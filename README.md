@@ -42,16 +42,16 @@ Hiermit kann eine Langzeitstatistik mit Nagios realisiert werden.
 ### Usage
 
 check_zway2 -u|--url <http://host:port/url> -a|--attributes <attributes>
-     [ -c|--critical <thresholds> ] 
-     [ -w|--warning <thresholds> ] 
-     [ -U|--ZWayUser ] 
-     [ -P|--ZWayPassword ] 
-     [ -D|--ZWayDevice ] 
-     [ -I|--ZWayInstance ] (default:0)
-     [ -C|--ZWayCommandClass ] 
-     [ -M|--ZWayMeter ] 
-     [ -t|--timeout <timeout> ]
-     [ --ignoressl ]
-     [ -h|--help ]
+     -c|--critical <thresholds> 
+     -w|--warning <thresholds>  
+     -U|--ZWayUser 
+     -P|--ZWayPassword 
+     -D|--ZWayDevice 
+     -I|--ZWayInstance  (default:0)
+     -C|--ZWayCommandClass 
+     -M|--ZWayMeter 
+     -t|--timeout <timeout> 
+     --ignoressl 
+     -h|--help 
 
 
