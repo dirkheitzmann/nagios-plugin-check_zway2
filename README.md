@@ -25,7 +25,7 @@ Using these performance values, it is easy to provide long-term statistics.
 Nagios Plugin zum Auslesen der Werte und Testen des Status von Schaltern, 
 Sensoren, usw. aus dem Z-Way HomeAutomation System mit Hilfe der JSON API.
 
-Aktuell sind die folgenden Command-Klassen unterst√ºtzt:
+Aktuell sind die folgenden Command-Klassen unterst¸tzt:
 
 - 37 - SwitchBinary
 - 38 - SwitchMultilevel
@@ -35,7 +35,7 @@ Aktuell sind die folgenden Command-Klassen unterst√ºtzt:
 - 113 - SensorBinary
 - 128 - Battery
 
-Zus√§tzlich zum Messwert bzw. Status werden Performancedaten bereitgestellt. 
+Zus‰tzlich zum Messwert bzw. Status werden Performancedaten bereitgestellt. 
 Hiermit kann eine Langzeitstatistik mit Nagios realisiert werden.
 
 
