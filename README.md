@@ -41,6 +41,7 @@ Hiermit kann eine Langzeitstatistik mit Nagios realisiert werden.
 
 ### Usage
 
+```
 check_zway2 -u|--url <http://host:port/url> -a|--attributes <attributes>
      -c|--critical <thresholds> 
      -w|--warning <thresholds>  
@@ -53,5 +54,6 @@ check_zway2 -u|--url <http://host:port/url> -a|--attributes <attributes>
      -t|--timeout <timeout> 
      --ignoressl 
      -h|--help 
+```
 
 
