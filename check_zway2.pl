@@ -123,7 +123,7 @@ my $cookies = HTTP::Cookies->new( );
 
 $ua->env_proxy;
 $ua->cookie_jar( $cookies );
-$ua->agent('check_json/0.5');
+$ua->agent('check_zway2/1.0');
 $ua->default_header('Accept' => 'application/json');
 $ua->protocols_allowed( [ 'http', 'https'] );
 $ua->parse_head(0);
